@@ -19,7 +19,7 @@ EDA involved exploring the Vehicle Makes data to answer key questions, such as:
 
 
 ### Tools:
-
+- SQL server management studio.
 
 
 
