@@ -1,6 +1,8 @@
 # Vehicle Makes Analysis 
 
 ## Project Objectives:
+This data analysis project aims to provide insights into car makes over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+
 
 ### Exploratory Data Analysis:
 EDA involved exploring the Vehicle Makes data to answer key questions, such as:
