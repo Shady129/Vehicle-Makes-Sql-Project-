@@ -1,18 +1,12 @@
-# Vehicle Makes Analysis 
+# Vehicle Makes Analysis By SQL SQL Server
 
 ## Project Objectives:
 •	Utilized SQL to import more than 300K records for vehicle makes details to database.
 •	Extract data from database to a separate table.
 •	Extract data from different related tables from vehicle makes databases using JOIN and VIEW.
 •	Transformed and filtered data by using aggregating and filtering function to extract valuable insights.
-     •	EDA involved exploring the Vehicle Makes data to answer key almost 50 questions related to:
+
      
-          -	Kinds of cars and their fuel type.
-          -	The capacity of engines that are used in vehicles.
-          -	Types of vehicle body.
-
-
-
 ### Questions Explored:
 
 EDA involved exploring the Vehicle Makes data to answer key almost 50 questions such as: 
