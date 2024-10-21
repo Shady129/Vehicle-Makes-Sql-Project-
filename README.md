@@ -26,7 +26,7 @@ EDA involved exploring the Vehicle Makes data to answer key almost 50 questions 
 
 
 ### Tools:
-- SQL server management studio.
+- SQL Server.
 
 
 
