@@ -276,7 +276,9 @@ WHERE Bodies.BodyName IN ('Coupe', 'Hatchback' , 'Sedan') AND VehicleDetails.Yea
 
 --Return found=1 if there is any vehicle made in year 1950
 
-
+SELECT CASE 
+WHEN EXISTS (SELECT 1 FROM VehicleDetails WHERE Year = 1950) 
+THEN 1 ELSE 0 END AS Found;
 
 --Get all Vehicle_Display_Name, NumDoors and add extra column to describe number of doors by words, and if door is null display 'Not Set'
 
@@ -504,6 +506,7 @@ GROUP BY Makes.Make)R1
 
 SELECT * FROM FuelTypes
 ORDER BY NewID();
+
 
 
 
