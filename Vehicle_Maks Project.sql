@@ -30,7 +30,7 @@ SELECT VehicleDetails.ID , VehicleDetails.MakeID , Makes.Make as Make , VehicleD
 
  --Get number vehicles made between 1950 and 2000 per make and order them by Number Of Vehicles Descending
 
-SELECT Makes.Make, COUNT(*) AS 'Number Of Vehicles'
+SELECT Makes.Make, COUNT(*) AS 'NumberOfVehicles'
 FROM VehicleDetails
 JOIN Makes 
 ON	VehicleDetails.MakeID = Makes.MakeID
@@ -41,7 +41,7 @@ ORDER BY 'Number Of Vehicles' DESC;
 
 --Get All Makes that have manufactured more than 12000 Vehicles in years 1950 to 2000.
 
-SELECT Make, COUNT(*) AS 'Number Of Vehicles'
+SELECT Make, COUNT(*) AS 'NumberOfVehicles'
 FROM VehicleDetails
 JOIN Makes 
 ON VehicleDetails.MakeID = Makes.MakeID
@@ -118,7 +118,7 @@ ORDER BY Makes.Make;
 
  --Get Total Makes that runs with GAS
 
-SELECT COUNT(Distinct Makes.Make) 'Total Makes that runs with GAS'
+SELECT COUNT(Distinct Makes.Make) AS 'TotalMakesthatrunswithGAS'
 FROM VehicleDetails
 JOIN Makes
 ON VehicleDetails.MakeID = Makes.MakeID
@@ -255,7 +255,7 @@ WHERE (VehicleDetails.Engine LIKE '%OHV%') AND (VehicleDetails.Engine_Cylinders 
 SELECT Bodies.BodyName,VehicleDetails.* FROM VehicleDetails
 JOIN Bodies
 ON VehicleDetails.BodyID = Bodies.BodyID
-WHERE (Bodies.BodyName = 'Sport Utility') AND (VehicleDetails.Year > 2020),
+WHERE (Bodies.BodyName = 'Sport Utility') AND (VehicleDetails.Year > 2020)
 
 
 --Get all vehicles that their Body is 'Coupe' or 'Hatchback' or 'Sedan'
@@ -504,6 +504,7 @@ GROUP BY Makes.Make)R1
 
 SELECT * FROM FuelTypes
 ORDER BY NewID();
+
 
 
 
