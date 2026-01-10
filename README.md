@@ -3,7 +3,7 @@
 
 
 📌 PROJECT OVERVIEW
-──────────────────
+
 A comprehensive SQL analytics project built on a relational
 vehicle database. The project focuses on analyzing vehicle
 manufacturing data and extracting business insights using
@@ -12,7 +12,7 @@ pure SQL on Microsoft SQL Server.
 This project demonstrates strong analytical thinking,
 advanced SQL querying, and real-world data analysis skills.
 
-────────────────────────────────────────────────────────────
+
 
 🗄️ DATABASE STRUCTURE
 ───────────────────
@@ -29,14 +29,14 @@ The database contains multiple related tables:
 All tables are connected through relational keys, enabling
 complex multi-table analysis.
 
-────────────────────────────────────────────────────────────
+
 
 🛠️ TECHNOLOGIES USED
 ───────────────────
 • Microsoft SQL Server
 • T-SQL
 
-────────────────────────────────────────────────────────────
+
 
 🧠 SQL SKILLS DEMONSTRATED
 ────────────────────────
@@ -52,7 +52,7 @@ complex multi-table analysis.
 • Ranking and sorting (ORDER BY, TOP)
 • Randomized results using NEWID()
 
-────────────────────────────────────────────────────────────
+
 
 📊 KEY ANALYSIS AREAS
 ───────────────────
@@ -80,7 +80,6 @@ complex multi-table analysis.
 • Vehicle count per fuel type per make
 • Drive type analysis (FWD / RWD / AWD)
 
-────────────────────────────────────────────────────────────
 
 🔹 VEHICLE STRUCTURE ANALYSIS
 • Body types (Sedan, Coupe, Hatchback, SUV)
@@ -88,14 +87,12 @@ complex multi-table analysis.
 • Missing doors data percentage
 • Vehicles with specific configurations
 
-────────────────────────────────────────────────────────────
 
 🔹 TIME-BASED ANALYSIS
 • Vehicle age calculation
 • Vehicles filtered by age ranges
 • Vehicles manufactured in specific years
 
-────────────────────────────────────────────────────────────
 
 📈 BUSINESS INSIGHTS
 ───────────────────
@@ -123,14 +120,13 @@ Vehicle-SQL-Analytics/
 • Advanced SQL Practice
 • Relational Data Analysis Showcase
 
-────────────────────────────────────────────────────────────
+
 
 👤 AUTHOR
 ────────
 Shady Mahmoud
 SQL & Data Analytics Enthusiast
 
-────────────────────────────────────────────────────────────
 
 ⭐ FINAL NOTE
 ───────────
