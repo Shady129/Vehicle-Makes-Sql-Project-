@@ -1,5 +1,5 @@
 use Vehicle_Makes EXEC sp_changedbowner 'sa'
---Create create view VehicleMasterDetails
+--Create view VehicleMasterDetails
 
 SELECT VehicleDetails.ID , VehicleDetails.MakeID , Makes.Make as Make , VehicleDetails.ModelID ,
    MakeModels.ModelName as ModelName , VehicleDetails.SubModelID , SubModels.SubModelName As SubModelName,
